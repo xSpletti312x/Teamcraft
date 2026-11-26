@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "teamcraft",
+	"version": "${version}",
+	"name": "Teamcraft",
+	"description": "A Minecraft team mod.",
+	"authors": [
+		"xSpletti312x"
+	],
+	"contact": {
+		"sources": "https://github.com/xSpletti312x/Teamcraft",
+		"issues": "https://github.com/xSpletti312x/Teamcraft/issues"
+	},
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.spletti.teamcraft.Teamcraft"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
