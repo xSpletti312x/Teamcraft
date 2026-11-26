@@ -1,24 +1,17 @@
 # Teamcraft
 
-Teamcraft is a Minecraft team mod. This README describes the current state of the code.
+Teamcraft is a Minecraft Fabric mod project for Minecraft Java 26.3.
 
 ## Current progress
 
-- Fabric project configured for Minecraft Java 26.3.
-- Fabric metadata and the `Teamcraft` mod initializer are configured.
-- `/team` is registered in the source and replies that Teamcraft is loaded.
-- The first Minecraft launch has not been verified yet.
-- Team creation, membership, join requests, admin controls, and persistent storage are not implemented.
+- The Gradle project and Fabric mod metadata are set up.
+- The project targets Minecraft 26.3, Fabric Loader 0.20.1, Fabric API 0.167.0+26.3, and Java 25.
+- There is currently no Java source code or implemented in-game behavior.
+- The development client has not been launched from this project.
 
-## Development environment
+## Open in VSCodium
 
-- Minecraft Java 26.3
-- Fabric Loader 0.20.1
-- Fabric API 0.167.0+26.3
-- Java 25
-- Gradle 9.8.2 via the included Gradle wrapper
-
-Open this folder in VSCodium. From its terminal, start the development client with:
+Open this folder in VSCodium. From its integrated PowerShell terminal, start the development client with:
 
 ```powershell
 .\gradlew.bat runClient
@@ -30,13 +23,7 @@ Build the mod jar with:
 .\gradlew.bat build
 ```
 
-The built jar is placed in `build/libs`.
-
-## Commands
-
-| Command | Current behavior |
-| --- | --- |
-| `/team` | Confirms that Teamcraft is loaded. |
+The jar is created in `build/libs`.
 
 ## Project links
 
