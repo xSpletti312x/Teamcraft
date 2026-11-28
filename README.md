@@ -1,15 +1,21 @@
-# Teamcraft
+# Teamcraft — Fabric
 
 Teamcraft is a Minecraft Fabric mod project for Minecraft Java 26.3.
 
 ## Current progress
 
-- The Gradle project and Fabric mod metadata are set up.
-- The project targets Minecraft 26.3, Fabric Loader 0.20.1, Fabric API 0.167.0+26.3, and Java 25.
-- There is currently no Java source code or implemented in-game behavior.
-- The development client has not been launched from this project.
+The current development version supports:
 
-## Open in VSCodium
+- Creating a team with `/teamcraft create <name>`.
+- Leaving a team with `/teamcraft leave`.
+- Listing team names with `/teamcraft list`.
+- Changing the team's name and color with `/teamcraft modify name <new-name>` and `/teamcraft modify color <color>` (owner only).
+- Showing the colored team name, player name, and message in chat.
+- Saving team data to the world.
+
+Team data also has an initial join-request model. The join commands, approval flow, and five-minute expiry are not implemented yet.
+
+## Development
 
 Open this folder in VSCodium. From its integrated PowerShell terminal, start the development client with:
 
